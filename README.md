@@ -1,1 +1,31 @@
-The extent and diversity of systems, provided by IP networks, have made various technologies approach integrating different types of access networks and convert to the next generation network. The Session Initiation Protocol (SIP) with respect to facilities such as being in text form, end-to-end connection, independence from the type of transmitted data, and support various forms of transmission, is an appropriate choice for signalling protocol in order to make connection between two IP network users. These advantages have made SIP be considered as a signalling protocol in IMS, a proposed signalling platform for next generation networks. Despite having all these advantages, SIP protocol lacks appropriate mechanism for addressing overload causing serious problems for SIP servers. SIP overload occurs when a SIP server does not have enough resources to process messages. The fact is that the performance of SIP servers is largely degraded during overload periods because of the built in message retransmission mechanism of SIP. In this paper, we propose an advanced method, which is an improved method of the Windows Based Overload Control in RFC 6357. In the Windows based Overload Control method, the window is used to limit the amount of message generated at once by SIP proxy server. A distributed adaptive window based overload control algorithm, which does not use explicit feedback from the downstream server, is proposed. The number of confirmation messages is used as a measure of the amount of load on the downstream server by upstream ones. Thus, the proposed algorithm does not impose any additional complexity or processing on the downstream server, which is overloaded, making it a very robust approach.. Our proposed algorithm is developed and implemented on Asterisk open source proxy and was evaluated. The results of implementation show that this method could practically maintain throughput in case of overload and is also fair among different upstream servers. This is the only overload control method, which is implemented on a real platform without using explicit feedback. 
+VoIP is becoming a low priced and efﬁcient replacement for
+PSTN in communication industries.
+With a widely growing application,
+SIP is an application layer signaling protocol which has been standardized
+by IETF for creating, modifying, and terminating VoIP sessions.
+Generally speaking, this protocol routes a call request to its destination
+by using SIP proxies. With the increasing use of SIP, traditional conﬁgurations
+pose certain drawbacks, such as ineffective routing, unoptimized
+management of proxy resources (including CPU and memory), and an
+overload condition. The current paper presents three novel approaches,
+namely OpenSIP(s),
+for the purpose of upgrading the SIP network
+framework with new technologies, such as SDN and NFV. SDN provides
+for predominant management by decoupling data and control planes
+alongside
+a software-based central control (or softwarization). This, in
+turn, results in effective routing and resource management. Moreover,
+NFV assists SDN by virtualizing various devices and functions. However,
+current SDN elements limit the inspected ﬁelds to layer 2-4 headers,
+whereas SIP routing information is in the layer 7 header. OpenSIP(s)
+enforces policies
+on SIP networking agnostic to higher layers with the aid
+of the DPI engine. Among the beneﬁts of OpenSIP is programmability,
+cost reduction, uniﬁed management,
+routing, as well as efﬁcient load
+balancing. The present study implements OpenSIP(s) on a real testbed
+which includes Open vSwitch and the Floodlight controller. The results
+show that the proposed architectures have
+a low overhead and satisfactory
+performance and, in addition, can take advantage of a ﬂexible scale-out
+design for application deployment.
