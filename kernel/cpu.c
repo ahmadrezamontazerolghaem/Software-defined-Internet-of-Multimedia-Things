@@ -32,8 +32,7 @@ static DEFINE_MUTEX(cpu_add_remove_lock);
  * or __unregister_cpu_notifier().
  */
 void cpu_maps_update_begin(void)
-{
-	mutex_lock(&cpu_add_remove_lock);
+{	mutex_lock(&cpu_add_remove_lock);
 }
 EXPORT_SYMBOL(cpu_notifier_register_begin);
 
