@@ -32,7 +32,6 @@ static int br_rports_fill_info(struct sk_buff *skb, struct netlink_callback *cb,
 		if (p && nla_put_u32(skb, MDBA_ROUTER_PORT, p->dev->ifindex))
 			goto fail;
 	}
-
 	nla_nest_end(skb, nest);
 	return 0;
 fail:
