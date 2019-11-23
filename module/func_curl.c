@@ -21,7 +21,7 @@ ASTERISK_REGISTER_FILE()
 			Retrieve content from a remote web or ftp server
 		</synopsis>
 		<syntax>
-			<parameter name="url" required="true" />
+		<parameter name="url" required="true" />
 			<parameter name="post-data">
 				<para>If specified, an <literal>HTTP POST</literal> will be
 				performed with the content of
