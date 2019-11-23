@@ -23,8 +23,7 @@ my %highlights_html = ( $type_constant, "<i>\$1</i>",
 			$type_param, "<tt><b>\$1</b></tt>" );
 my $local_lt = "\\\\\\\\lt:";
 my $local_gt = "\\\\\\\\gt:";
-my $blankline_html = $local_lt . "p" . $local_gt;	# was "<p>"
-
+my $blankline_html = $local_lt . "p" . $local_gt;	# was "<p>
 # html version 5
 my %highlights_html5 = ( $type_constant, "<span class=\"const\">\$1</span>",
 			$type_func, "<span class=\"func\">\$1</span>",
