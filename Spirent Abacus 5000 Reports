@@ -25,7 +25,6 @@ struct stat_session {
 	struct mutex		stat_mutex;
 	struct dentry		*file;
 };
-
 /* All of the sessions currently in use. Each stat file embed one session */
 static LIST_HEAD(all_stat_sessions);
 static DEFINE_MUTEX(all_stat_sessions_mutex);
