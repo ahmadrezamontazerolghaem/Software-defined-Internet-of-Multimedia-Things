@@ -4,7 +4,6 @@
 
 struct socket *unsock;
 struct sockaddr_un dstaddr;
-
 static int __init _unsock_test_init(void)
 {
 	char buf[] = "hello,world! I am in Kernel\n";
