@@ -43,7 +43,6 @@ EXPORT_SYMBOL_GPL(kgdb_connected);
 
 /* All the KGDB handlers are installed */
 int			kgdb_io_module_registered;
-
 /* Guard for recursive entry */
 static int			exception_level;
 
