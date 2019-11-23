@@ -1,6 +1,5 @@
 #ifndef _TCP_BSD_H
 #define _TCP_BSD_H
-
 #include "socket.h"
 
 G_BEGIN_DECLS 
