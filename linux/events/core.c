@@ -33,10 +33,8 @@
 #include <linux/compat.h>
 #include <linux/bpf.h>
 #include <linux/filter.h>
-
 #include "internal.h"
-
-#include <asm/irq_regs.h>
+include <asm/irq_regs.h>
 
 static struct workqueue_struct *perf_wq;
 
