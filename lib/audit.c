@@ -17,7 +17,6 @@ static unsigned write_class[] = {
 #include <asm-generic/audit_write.h>
 ~0U
 };
-
 static unsigned chattr_class[] = {
 #include <asm-generic/audit_change_attr.h>
 ~0U
