@@ -48,7 +48,6 @@ config PCI
 
 config EARLY_PRINTK
 	def_bool y
-
 config MMU
 	def_bool y
 
