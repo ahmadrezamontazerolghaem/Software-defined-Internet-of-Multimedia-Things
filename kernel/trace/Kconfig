@@ -8,7 +8,6 @@ config USER_STACKTRACE_SUPPORT
 
 config NOP_TRACER
 	bool
-
 config HAVE_FTRACE_NMI_ENTER
 	bool
 	help
