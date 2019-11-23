@@ -13,7 +13,7 @@ ARC_ENTRY memcpy
 	bmsk_s	r2,r2,1
 	st.ab	r12,[r5,4]
 	ld.a	r12,[r1,4]
-.Lnox4:
+.Lnox4
 	lppnz	.Lendloop
 	ld_s	r3,[r1,4]
 	st.ab	r12,[r5,4]
