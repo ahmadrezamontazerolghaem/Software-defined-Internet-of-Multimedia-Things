@@ -16,7 +16,7 @@ static struct callchain_cpus_entries *callchain_cpus_entries;
 __weak void perf_callchain_kernel(struct perf_callchain_entry *entry,
 				  struct pt_regs *regs)
 {
-}
+
 
 __weak void perf_callchain_user(struct perf_callchain_entry *entry,
 				struct pt_regs *regs)
