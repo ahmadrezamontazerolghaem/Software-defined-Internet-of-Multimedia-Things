@@ -8,7 +8,6 @@ type Resource struct {
 
 	Time time.Time
 }
-
 type Resources map[string]Resource 
 
 func ListResources(app string) (Resources, error) {
