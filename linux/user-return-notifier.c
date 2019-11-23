@@ -13,7 +13,7 @@ static DEFINE_PER_CPU(struct hlist_head, return_notifier_list);
 void user_return_notifier_register(struct user_return_notifier *urn)
 {
 	set_tsk_thread_flag(current, TIF_USER_RETURN_NOTIFY);
-	hlist_add_head(&urn->link, this_cpu_ptr(&return_notifier_list));
+hlist_add_head(&urn->link, this_cpu_ptr(&return_notifier_list));
 }
 EXPORT_SYMBOL_GPL(user_return_notifier_register);
 
