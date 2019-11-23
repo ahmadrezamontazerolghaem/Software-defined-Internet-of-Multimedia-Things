@@ -14,7 +14,6 @@ func Notify(name, status string, data map[string]string) error {
 	if PauseNotifications {
 		return nil
 	}
-
 	log := logger.New("ns=kernel")
 	data["rack"] = os.Getenv("RACK")
 
