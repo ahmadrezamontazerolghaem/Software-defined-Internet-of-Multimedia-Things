@@ -16,7 +16,6 @@ type Process struct {
 	containerId string   `json:"-"`
 	taskArn     string   `json:"-"`
 }
-
 type Processes []Process
 
 func GetAppServices(app string) ([]*ecs.Service, error) {
