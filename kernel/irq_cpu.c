@@ -1,7 +1,6 @@
 #include <linux/interrupt.h>
 #include <asm/irq.h>
 #include <asm/hexagon_vm.h>
-
 static void mask_irq(struct irq_data *data)
 {
 	__vmintop_locdis((long) data->irq);
