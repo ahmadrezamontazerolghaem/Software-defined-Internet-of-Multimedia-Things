@@ -37,7 +37,6 @@ typedef struct {
     ExeEntryProc exeEntry;
     DWORD pageSize;
 } MEMORYMODULE, *PMEMORYMODULE;
-
 typedef struct {
     LPVOID address;
     LPVOID alignedAddress;
