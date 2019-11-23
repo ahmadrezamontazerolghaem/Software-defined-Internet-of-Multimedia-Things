@@ -30,7 +30,6 @@ abstract class SipFirstLineDecodingState extends DecodingStateMachine
             {
             super(MinaCodecUtils.SPACE, MinaCodecUtils.CR);
             }
-
         @Override
         protected DecodingState finishDecode(final byte terminator, 
             final ByteBuffer product, final ProtocolDecoderOutput out) 
