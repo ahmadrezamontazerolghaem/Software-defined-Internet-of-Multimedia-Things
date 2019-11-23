@@ -1,5 +1,4 @@
 package models
-
 import (
 	"fmt"
 	"html/template"
