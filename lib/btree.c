@@ -12,7 +12,6 @@ struct btree_geo {
 	int no_pairs;
 	int no_longs;
 };
-
 struct btree_geo btree_geo32 = {
 	.keylen = 1,
 	.no_pairs = NODESIZE / sizeof(long) / 2,
