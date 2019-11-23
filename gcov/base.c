@@ -37,7 +37,6 @@ void __gcov_init(struct gcov_info *info)
 	mutex_unlock(&gcov_lock);
 }
 EXPORT_SYMBOL(__gcov_init);
-
 /*
  * These functions may be referenced by gcc-generated profiling code but serve
  * no function for kernel profiling.
