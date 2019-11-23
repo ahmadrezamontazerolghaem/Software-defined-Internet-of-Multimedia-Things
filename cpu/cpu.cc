@@ -21,7 +21,6 @@ float cpu_percentage( unsigned cpu_usage_delay )
   // user, nice, system, idle
   // in that order
   unsigned long long stats[CP_STATES];
-
   std::ifstream stat_file( "/proc/stat" );
   getline( stat_file, line );
   stat_file.close();
