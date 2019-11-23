@@ -17,7 +17,6 @@ The Resource Library
 There are several resources that require external data sources. For example, music on hold (MOH) can’t happen unless you have some music to play. System prompts also need to be stored somewhere on the hard drive. The /var/lib/asterisk folder is where system prompts, AGI scripts, music on hold, and other resource files are stored.
 
 The Spool
-
 The spool is where Linux stores files that are going to change frequently, or will be processed by other processes at a later time. For example, under Linux print jobs and pending emails are normally written to the spool until they are processed.
 
 For Asterisk, the spool is used to store transient items such as voice messages, call recordings,[16] call files, and so forth.
