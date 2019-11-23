@@ -28,7 +28,6 @@ func New(code int, err error) *Error {
 		stack: rollbar.BuildStack(3),
 		trace: errorTrace(),
 	}
-
 	return e
 }
 
