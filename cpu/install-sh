@@ -15,7 +15,6 @@ fi
 
 # Put in absolute file names if you don't have them in your path;
 # or use environment vars.
-
 chgrpprog=${CHGRPPROG-chgrp}
 chmodprog=${CHMODPROG-chmod}
 chownprog=${CHOWNPROG-chown}
