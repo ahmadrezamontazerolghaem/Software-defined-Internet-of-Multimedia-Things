@@ -6,7 +6,6 @@
 #include <linux/sched.h> 
 #include <linux/workqueue.h>
 #include <linux/compiler.h>
-
 /*
  * Scheduler clock - returns current time in nanosec units.
  * This is default implementation.
