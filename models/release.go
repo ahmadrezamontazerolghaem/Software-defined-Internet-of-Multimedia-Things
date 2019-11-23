@@ -6,7 +6,6 @@ type Release struct {
 	Manifest string    `json:"manifest"` 
 	Created  time.Time `json:"created"`
 }
-
 type Releases []Release
 
 func NewRelease(app string) Release {
