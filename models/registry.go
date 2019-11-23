@@ -2,7 +2,6 @@ func GetRegistriesAuth() (Environment, docker.AuthConfigurations119, error) {
 	acs := docker.AuthConfigurations119{}
 
 	env, err := GetRackSettings()
-
 	if err != nil { 
 		return env, acs, err
 	}
