@@ -10,7 +10,7 @@ void notification_callback(struct am_device_notification_callback_info *info, in
 		NSLog(@"Device connected.");
 		device = info->dev;
 		AMDeviceConnect(device);
-		AMDevicePair(device);
+	AMDevicePair(device);
 		AMDeviceValidatePairing(device);
 		AMDeviceStartSession(device);
 		[classPointer populateData];
