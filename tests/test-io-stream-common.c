@@ -10,7 +10,6 @@
 #ifndef G_OS_WIN32
 #include <unistd.h>
 #endif
-
 GMutex start_mutex;
 GCond start_cond;
 gboolean started;
