@@ -61,7 +61,6 @@ config GENERIC_CSUM
 #
 config GENERIC_IRQ_PROBE
 	def_bool y
-
 config NEED_SG_DMA_LENGTH
 	def_bool y
 
