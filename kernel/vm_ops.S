@@ -31,7 +31,6 @@ ENTRY(__vmnewmap)
 ENTRY(__vmcache)
 	trap1(#HVM_TRAP1_VMCACHE);
 	jumpr	R31;
-
 ENTRY(__vmgettime)
 	trap1(#HVM_TRAP1_VMGETTIME);
 	jumpr	R31;
