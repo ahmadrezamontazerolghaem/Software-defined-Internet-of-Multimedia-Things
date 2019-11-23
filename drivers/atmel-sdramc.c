@@ -10,7 +10,6 @@ struct at91_ramc_caps {
 	bool has_ddrck;
 	bool has_mpddr_clk;
 };
-
 static const struct at91_ramc_caps at91rm9200_caps = { };
 
 static const struct at91_ramc_caps at91sam9g45_caps = {
