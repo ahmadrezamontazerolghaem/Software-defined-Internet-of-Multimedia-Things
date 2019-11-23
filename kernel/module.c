@@ -10,7 +10,6 @@
 #define DEBUGP(fmt , ...)
 #endif
 
-
 /*
  * module_frob_arch_sections - tweak got/plt sections.
  * @hdr - pointer to elf header
