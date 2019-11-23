@@ -38,7 +38,6 @@ unsigned long long simple_strtoull(const char *cp, char **endp, unsigned int bas
 
 	if (endp)
 		*endp = (char *)cp;
-
 	return result;
 }
 EXPORT_SYMBOL(simple_strtoull);
