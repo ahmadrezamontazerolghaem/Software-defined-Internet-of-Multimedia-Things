@@ -11,7 +11,7 @@
 #include <limits.h>
 /*
  * Original work by Jeff Garzik
- *
+ 
  * External file lists, symlink, pipe and fifo support by Thayne Harbaugh
  * Hard link support by Luciano Rocha
  */
