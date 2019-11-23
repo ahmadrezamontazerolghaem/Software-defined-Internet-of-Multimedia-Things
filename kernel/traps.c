@@ -16,7 +16,6 @@
 # include <linux/kgdb.h>
 #endif
 
-
 #define TRAP_SYSCALL	1
 #define TRAP_DEBUG	0xdb
 
