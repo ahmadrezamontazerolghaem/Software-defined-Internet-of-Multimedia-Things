@@ -148,7 +148,6 @@ static const char asn1_classes[4][5] = {
 	[ASN1_CONT]	= "CONT",
 	[ASN1_PRIV]	= "PRIV"
 };
-
 static const char asn1_methods[2][5] = {
 	[ASN1_UNIV]	= "PRIM",
 	[ASN1_APPL]	= "CONS"
