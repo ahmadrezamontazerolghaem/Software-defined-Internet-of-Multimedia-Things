@@ -4,4 +4,3 @@
 __rt_sigtramp_template:
 	r6 = #__NR_rt_sigreturn;
 	trap0(#1);
-
