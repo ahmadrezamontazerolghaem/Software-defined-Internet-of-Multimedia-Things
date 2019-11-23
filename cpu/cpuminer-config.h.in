@@ -20,7 +20,6 @@
 /* Define to 1 if you have the declaration of `be32enc', and to 0 if you
    don't. */
 #undef HAVE_DECL_BE32ENC
-
 /* Define to 1 if you have the declaration of `le32dec', and to 0 if you
    don't. */
 #undef HAVE_DECL_LE32DEC
