@@ -26,7 +26,6 @@
  * 		An audit_parent struct is not accessed during filtering, so may
  * 		be written directly provided audit_filter_mutex is held.
  */
-
 /* Audit filter lists, defined in <linux/audit.h> */
 struct list_head audit_filter_list[AUDIT_NR_FILTERS] = {
 	LIST_HEAD_INIT(audit_filter_list[0]),
