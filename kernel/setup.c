@@ -13,7 +13,6 @@
 #include <asm/vm_mmu.h>
 #include <asm/time.h>
 
-
 char cmd_line[COMMAND_LINE_SIZE];
 static char default_command_line[COMMAND_LINE_SIZE] __initdata = CONFIG_CMDLINE;
 
