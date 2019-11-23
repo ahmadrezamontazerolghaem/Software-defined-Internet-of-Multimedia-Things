@@ -10,7 +10,6 @@
 #include <linux/user.h>
 #include <linux/elf.h>
 
-
 #include <asm/user.h>
 
 #if arch_has_single_step()
