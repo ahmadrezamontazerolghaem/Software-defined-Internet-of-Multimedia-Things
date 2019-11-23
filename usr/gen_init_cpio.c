@@ -9,7 +9,6 @@
 #include <errno.h>
 #include <ctype.h>
 #include <limits.h>
-
 /*
  * Original work by Jeff Garzik
  *
