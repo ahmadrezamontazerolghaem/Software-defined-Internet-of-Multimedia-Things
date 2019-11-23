@@ -5,7 +5,6 @@
 #include <linux/debugfs.h>
 #include "trace_stat.h"
 #include "trace.h"
- 
 
 /*
  * List of stat red-black nodes from a tracer
