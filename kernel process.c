@@ -49,7 +49,6 @@ int copy_thread(unsigned long clone_flags, unsigned long usp,
 	}
 	memcpy(childregs, current_pt_regs(), sizeof(*childregs));
 	ss->r2524 = 0;
-
 	if (usp)
 		pt_set_rte_sp(childregs, usp);
 
