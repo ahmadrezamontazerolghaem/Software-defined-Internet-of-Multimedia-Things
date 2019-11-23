@@ -10,7 +10,6 @@
 #ifndef G_OS_WIN32
 #include <unistd.h>
 #endif
-
 typedef struct {
   GCancellable *cancellable;  /* owned */
 
