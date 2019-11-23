@@ -28,7 +28,7 @@ ARC_ENTRY memcpy
 	xor_s	r12,r12,r3
 	bmsk	r12,r12,r2
     xor_s	r12,r12,r3
-#else /* BIG ENDIAN */
+#else /*BIG ENDIAN */
 	sub3	r2,31,r2
 	; uses long immediate
         xor_s	r3,r3,r12
