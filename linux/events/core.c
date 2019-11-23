@@ -86,7 +86,6 @@ task_function_call(struct task_struct *p, int (*func) (void *info), void *info)
 
 	return data.ret;
 }
-
 /**
  * cpu_function_call - call a function on the cpu
  * @func:	the function to be called
