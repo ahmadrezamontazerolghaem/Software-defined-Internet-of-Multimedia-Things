@@ -10,7 +10,6 @@
 #ifndef G_OS_WIN32
 #include <unistd.h>
 #endif
-
 #define NUM_MESSAGES 10
 
 guint count = 0;
