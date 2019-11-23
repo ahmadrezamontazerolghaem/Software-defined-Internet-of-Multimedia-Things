@@ -6,7 +6,6 @@ func GetRegistriesAuth() (Environment, docker.AuthConfigurations119, error) {
 	if err != nil { 
 		return env, acs, err
 	}
-
 	data := []byte(env["DOCKER_AUTH_DATA"])
 
 	if len(data) > 0 {
