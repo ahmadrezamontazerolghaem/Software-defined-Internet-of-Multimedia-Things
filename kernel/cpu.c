@@ -74,7 +74,6 @@ static struct {
 	.dep_map = {.name = "cpu_hotplug.lock" },
 #endif
 };
-
 /* Lockdep annotations for get/put_online_cpus() and cpu_hotplug_begin/end() */
 #define cpuhp_lock_acquire_read() lock_map_acquire_read(&cpu_hotplug.dep_map)
 #define cpuhp_lock_acquire_tryread() \
