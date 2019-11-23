@@ -1,7 +1,6 @@
 
 #include <linux/module.h>
 #include <linux/string.h>
-
 #include <asm/byteorder.h>
 #include <net/checksum.h>
 #include <linux/uaccess.h>
