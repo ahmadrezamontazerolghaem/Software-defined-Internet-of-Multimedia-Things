@@ -2,7 +2,6 @@
 #define _UDP_BSD_H
 
 #include "socket.h"
-
 G_BEGIN_DECLS
 
 NiceSocket *
