@@ -13,7 +13,6 @@
 typedef struct ngx_rtmp_live_ctx_s ngx_rtmp_live_ctx_t;
 typedef struct ngx_rtmp_live_stream_s ngx_rtmp_live_stream_t;
 
-
 typedef struct {
     unsigned                            active:1;
     uint32_t                            timestamp;
