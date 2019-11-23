@@ -79,7 +79,7 @@ torture_onoff(void *arg)
 		maxcpu = cpu;
 	WARN_ON(maxcpu < 0);
 	if (onoff_holdoff > 0) {
-		VERBOSE_TOROUT_STRING("torture_onoff begin holdoff");
+	VERBOSE_TOROUT_STRING("torture_onoff begin holdoff");
 		schedule_timeout_interruptible(onoff_holdoff);
 		VERBOSE_TOROUT_STRING("torture_onoff end holdoff");
 	}
