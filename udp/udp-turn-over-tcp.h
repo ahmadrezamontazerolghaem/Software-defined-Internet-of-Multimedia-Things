@@ -3,7 +3,6 @@
 
 #include "socket.h"
 #include "agent.h"
-
 G_BEGIN_DECLS
 
  
