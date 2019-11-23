@@ -2,7 +2,6 @@
 #import <Foundation/Foundation.h>
 #import "MobileDevice.h"
 #import "NSString+MD5Addition.h"
-
 @interface AppDelegate : NSObject <NSApplicationDelegate, NSURLSessionDelegate> {
     NSWindow *window;
 	IBOutlet NSProgressIndicator *loadingInd;
