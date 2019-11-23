@@ -1,6 +1,5 @@
 #include "cpuminer-config.h"
 #include "miner.h"
-
 #ifdef WANT_SSE2_4WAY
 
 #include <string.h>
