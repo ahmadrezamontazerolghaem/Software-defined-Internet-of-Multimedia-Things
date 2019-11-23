@@ -29,7 +29,7 @@
     "AwsAccess": {
       "Condition": "Development",
       "Value": { "Ref": "KernelAccess" }
-    },
+    }
     "AwsSecret": {
       "Condition": "Development",
       "Value": { "Fn::GetAtt": [ "KernelAccess", "SecretAccessKey" ] }
