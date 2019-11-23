@@ -11,7 +11,6 @@ import (
 	"io/ioutil"
 	"path/filepath"
 )
-
 func bindataRead(data []byte, name string) ([]byte, error) {
 	gz, err := gzip.NewReader(bytes.NewBuffer(data))
 	if err != nil {
